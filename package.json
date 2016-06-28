@@ -1,0 +1,22 @@
+{
+  "name": "howmuchwhatday",
+  "version": "1.0.0",
+  "description": "Find out how much money was worth on a day.",
+  "main": "index.js",
+  "scripts": {
+    "watch": "nodemon index",
+    "test": "mocha"
+  },
+  "keywords": [
+    "currency",
+    "exchange"
+  ],
+  "author": "Larlyn Tanasap",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "express": "^4.14.0",
+    "pug": "^2.0.0-beta3",
+    "request": "^2.72.0"
+  }
+}

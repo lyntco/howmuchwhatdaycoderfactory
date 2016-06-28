@@ -1,0 +1,13 @@
+html
+  head
+  body
+    h1 How much, on what day?
+    div
+      form(action="/")
+        input(type="number", name="amount")
+        select(name="symbol")
+          each sym in rates
+            option= sym
+        button Show me the Money!
+    h2 This is how much much money:
+    h2= result
